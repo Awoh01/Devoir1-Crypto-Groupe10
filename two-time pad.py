@@ -34,11 +34,6 @@ if __name__ == '__main__':
     for pos, frag in positions_possibles(x, MOT_CONNU):
         print(f"  position {pos:2d} -> fragment de m2 = {frag}")
 
-    print(
-        "\nLa position correcte est departagee par recherche de vraisemblance\n"
-        "linguistique (recuit simule + segmentation en mots francais, voir\n"
-        "explications/2.2_reutilisation_cle.md). Resultat retenu :\n"
-    )
 
     # --- Resultat de la reconstruction complete (recuit simule) ---
     POSITION_RETENUE = 23
